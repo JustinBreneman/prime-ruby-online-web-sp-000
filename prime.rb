@@ -19,6 +19,11 @@ def prime?(num)
     num_array.each do |x|
       num_array_2 << (num / x).to_f
     end
-    binding.pry
+    if num_array_2.detect { |y| y > 0.0 }
+      false
+    else
+      true
+    end
+#    binding.pry
   end
 end
