@@ -1,12 +1,5 @@
 require 'pry'
 
-def range(num)
-  num_array = []
-  num.times do
-    num_array << num
-    num -= 1
-  end
-end
 
 def prime?(num)
   num = num.abs
@@ -30,6 +23,14 @@ def prime?(num)
     end
   end
   binding.pry
+end
+
+def range(num)
+  num_array = []
+  num.times do
+    num_array << num
+    num -= 1
+  end
 end
 
 prime?(5)
