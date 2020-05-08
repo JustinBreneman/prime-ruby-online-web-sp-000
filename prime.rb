@@ -22,7 +22,6 @@ def prime?(num)
     num_array.pop
     num_array.each { |x|
        num_array_2 << (num / x).to_f
-       binding.pry
      }
     if num_array_2.detect { |y| y > 0.0 }
       false
@@ -32,4 +31,5 @@ def prime?(num)
   end
 end
 
+binding.pry
 prime?(5)
