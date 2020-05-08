@@ -24,6 +24,8 @@ def prime?(num)
     else
       true
     end
-#    binding.pry
+    binding.pry
   end
 end
+
+prime(4)
