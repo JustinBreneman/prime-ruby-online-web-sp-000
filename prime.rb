@@ -29,7 +29,7 @@ def prime?(num)
       true
     end
   end
+  binding.pry
 end
 
-binding.pry
 prime?(5)
