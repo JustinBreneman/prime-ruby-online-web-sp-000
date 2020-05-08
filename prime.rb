@@ -18,7 +18,7 @@ def prime?(num)
     num_array.pop
     num_array.each do |x|
       num_array_2 << num / x
-      binding.pry
     end
+    binding.pry
   end
 end
