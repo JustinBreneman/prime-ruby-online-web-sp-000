@@ -16,9 +16,7 @@ def prime?(num)
     end
     num_array.shift
     num_array.pop
-    num_array.each do |x|
-      num_array_2 << (num % x).to_f
-    end
+    num_array.each { |x| num_array_2 << (num % x).to_f }
     if num_array_2.detect { |y| y > 0.0 }
       false
     else
