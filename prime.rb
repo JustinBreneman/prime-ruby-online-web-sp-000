@@ -1,11 +1,10 @@
 require 'pry'
 
+num_array = []
+num_array_2 = []
 
 def prime?(num)
   num = num.abs
-  original = num
-  num_array = []
-  num_array_2 = []
   if num <= 1
     false
   elsif num == 2
