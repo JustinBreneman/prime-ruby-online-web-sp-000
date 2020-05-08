@@ -28,4 +28,4 @@ def prime?(num)
   end
 end
 
-#prime?(5)
+prime?(5)
