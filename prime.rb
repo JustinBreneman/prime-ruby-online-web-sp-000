@@ -7,7 +7,7 @@ def range(num, num_array)
     counter -= 1
   end
   num_array.shift
-  num_array.pop
+#  num_array.pop
   num_array
 end
 
