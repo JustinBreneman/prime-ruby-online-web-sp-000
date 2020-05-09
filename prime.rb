@@ -1,7 +1,7 @@
 require 'pry'
 
 #def range(num)
-  
+
 #end
 
 def prime?(num)
