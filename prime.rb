@@ -10,7 +10,7 @@ def prime?(num)
   elsif num == 2
     true
   else
-    num_array << range(num)
+    num_array = range(num)
     num_array.shift
     num_array.pop
     num_array.each { |x|
