@@ -1,9 +1,9 @@
 require 'pry'
 
-num_array = []
 
-def prime?(num, num_array)
+def prime?(num)
   num = num.abs
+  num_array = []
   num_array_2 = []
   if num <= 1
     false
