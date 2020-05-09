@@ -3,6 +3,7 @@ require 'pry'
 
 def prime?(num)
   num = num.abs
+  counter = num
   num_array = []
   num_array_2 = []
   if num <= 1
@@ -11,8 +12,8 @@ def prime?(num)
     true
   else
     num.times do
-      num_array << num
-      num -= 1
+      num_array << counter
+      counter -= 1
       num_array
     end
     num_array.shift
