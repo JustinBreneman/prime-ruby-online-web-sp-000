@@ -5,8 +5,8 @@ def range(num, num_array)
   num.times do
     num_array << counter
     counter -= 1
-    num_array
   end
+  num_array
 end
 
 def prime?(num)
