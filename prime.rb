@@ -10,7 +10,10 @@ def prime?(num, num_array)
   elsif num == 2
     true
   else
-    num_array = range(num, num_array)
+    num.times do
+      num_array << num
+      num -= 1
+    end
     num_array.shift
     num_array.pop
     num_array.each { |x|
@@ -26,10 +29,6 @@ def prime?(num, num_array)
 end
 
 def range(num, num_array)
-  num.times do
-    num_array << num
-    num -= 1
-  end
 end
 
 prime?(5)
