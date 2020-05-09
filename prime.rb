@@ -10,7 +10,7 @@ def prime?(num)
   elsif num == 2
     true
   else
-    num_array = range(num)
+    num_array = range(num, num_array)
     num_array.shift
     num_array.pop
     num_array.each { |x|
@@ -25,7 +25,7 @@ def prime?(num)
   binding.pry
 end
 
-def range(num)
+def range(num, num_array)
   num_array = []
   num.times do
     num_array << num
