@@ -1,4 +1,3 @@
-require 'pry'
 
 def range(num, num_array)
   counter = num
