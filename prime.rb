@@ -26,8 +26,4 @@ def prime?(num)
       true
     end
   end
-#  binding.pry
 end
-
-
-#prime?(5)
