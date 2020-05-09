@@ -2,7 +2,7 @@ require 'pry'
 
 def range(num, num_array)
   counter = (num / num).ceil
-  num.times do
+  counter.times do
     num_array << counter
     counter -= 1
   end
