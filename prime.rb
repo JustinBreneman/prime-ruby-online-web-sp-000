@@ -13,6 +13,7 @@ def prime?(num)
     num.times do
       num_array << num
       num -= 1
+      num_array
     end
     num_array.shift
     num_array.pop
