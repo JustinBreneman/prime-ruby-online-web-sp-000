@@ -28,7 +28,5 @@ def prime?(num, num_array)
   binding.pry
 end
 
-def range(num, num_array)
-end
 
 prime?(5)
