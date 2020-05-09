@@ -1,24 +1,24 @@
 require 'pry'
 
-#def range(num)
-
-#end
+def range(num)
+  num_array = []
+  num.times do
+    num_array << counter
+    counter -= 1
+    num_array
+  end
+end
 
 def prime?(num)
   num = num.abs
   counter = num
-  num_array = []
   num_array_2 = []
   if num <= 1
     false
   elsif num == 2
     true
   else
-    num.times do
-      num_array << counter
-      counter -= 1
-      num_array
-    end
+    range(num)
     num_array.shift
     num_array.pop
     num_array.each { |x| num_array_2 << (num % x).to_f }
