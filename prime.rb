@@ -1,9 +1,9 @@
 require 'pry'
 
+num_array = []
 
-def prime?(num)
+def prime?(num, num_array)
   num = num.abs
-  num_array = []
   num_array_2 = []
   if num <= 1
     false
@@ -26,7 +26,6 @@ def prime?(num)
 end
 
 def range(num, num_array)
-  num_array = []
   num.times do
     num_array << num
     num -= 1
