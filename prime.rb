@@ -17,8 +17,8 @@ def prime?(num)
   num_array_2 = []
   if num <= 1
     false
-  elsif num == 2
-    true
+  #elsif num == 2
+    #true
   else
     range(num, num_array)
     num_array.each { |x| num_array_2 << (num % x).to_f }
