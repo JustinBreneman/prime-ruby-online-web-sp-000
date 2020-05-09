@@ -1,6 +1,7 @@
 require 'pry'
 
 def range(num)
+  counter = num
   num_array = []
   num.times do
     num_array << counter
@@ -11,7 +12,6 @@ end
 
 def prime?(num)
   num = num.abs
-  counter = num
   num_array_2 = []
   if num <= 1
     false
