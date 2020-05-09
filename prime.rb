@@ -1,13 +1,13 @@
 require 'pry'
 
 def range(num, num_array)
-  counter = (num / num).ceil
+  counter = num
   counter.times do
     num_array << counter
     counter -= 1
   end
   num_array.shift
-#  num_array.pop
+  num_array.pop
   num_array
 end
 
